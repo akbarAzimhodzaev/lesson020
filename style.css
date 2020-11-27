@@ -7,4 +7,23 @@
 .houses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.house {
+    width: 100%;
+    position: relative;
+    height: 200px;
+}
+
+.door {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    height: 150px;
+    width: 30%;
+}
+
+.door_color_green {
+    background: #2cff41;
 }
